@@ -1,0 +1,94 @@
+
+/*index8.html COOL TRASITIONS - BUTTONS */
+
+  * {
+      margin: 0;
+    }
+    body {
+      font: 36px arial, helvetica, sans-serif;
+      color: #000;
+      background: #06c;
+    }
+    h1 {
+      margin: 40px;
+      font-size: 24px;
+      color: white;
+      text-align: center;
+    }
+
+    p {
+      height: 360px;
+      padding: 40px;
+    }
+    
+    a {
+      display: block;
+      margin: 0 auto;
+      color: rgba(255,255,255,.5);
+      text-align: center;
+      text-decoration: none;
+      -webkit-transition: .5s;
+      transition: .5s;
+    }
+
+    a:hover {
+      background: rgba(255,255,255,.5);
+      color: white;
+      border-color: white;
+    }
+
+
+/*daddy*/
+    #daddy {
+      background: rgba(0,0,0,.3);
+    }
+    #daddy a {
+      width: 120px;
+      height: 120px;
+      padding: 60px;
+      border-radius: 80px;
+      border: 60px solid rgba(255,255,255,.5);
+    }
+    #daddy a:hover {
+      border-radius: 180px;
+    }
+
+/*spurt*/
+    #spurt {
+      background: rgba(0,0,0,.2);
+    }
+    #spurt a, #baby a {
+      width: 80px;
+      height: 80px;
+      padding: 40px;
+      border-radius: 60px;
+      border: 40px solid rgba(255,255,255,.5);
+      margin: 60px auto;
+      font-size: 24px;
+    }
+    #spurt a:hover {
+      width: 120px;
+      height: 120px;
+      padding: 60px;
+      border-width: 60px;
+      border-radius: 180px;
+      margin: 0 auto;
+      font-size: 36px;
+    }
+
+/*baby*/
+    #baby {
+      background: rgba(0,0,0,.1);
+    }
+    #baby a:hover {
+      width: 40px;
+      height: 40px;
+      padding: 20px;
+      border-width: 20px;
+      border-radius: 60px;
+      margin: 120px auto;
+      font-size: 12px;
+    }
+
+
+/*////////////////////////////////////////////////////////////////*/

@@ -1,0 +1,32 @@
+
+/*index7.html*/
+
+  * {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+  
+    body {
+      font: 50px arial, helvetica, sans-serif;
+      background: #fed;
+    }
+  
+    li a {
+      display: block;
+      width: 250px;
+      padding: 25px;
+      margin: 25px auto;
+      background: white;
+      box-shadow: 0 0 5px 0 rgba(63,31,0,.5);
+      border-radius: 10px;
+      text-align: center;
+      text-decoration: none;
+      -webkit-transition: .2s;
+      transition: .2s;
+    }
+  
+    li a:hover {
+      -webkit-transform: rotate(-10deg) scale(2);
+      transform: rotate(-10deg) scale(2);
+    }

@@ -1,18 +1,63 @@
-
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-
     <meta charset="utf-8">
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>CSS transitions: Timing functions</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+        body {
+            font: 15px arial, helvetica, sans-serif;
+            text-align: center;
+        }
+
+        h1 {
+            margin-top: 20px;
+            color: #06c;
+        }
+
+        li {
+            list-style: none;
+            margin: 20px 0;
+            background: #def;
+        }
+        li a {
+            display: block;
+            width: 300px;
+            padding: 20px 0;
+            background: #06c;
+            color: white;
+        }
+
+        #timing1 {
+            -webkit-transition: 1s;
+            transition: 1s;
+        }
+        #timing7 {
+            -webkit-transition: 1s cubic-bezier(0.5,1.5,0.5,-0.5);
+            transition: 1s cubic-bezier(0.5,1.5,0.5,-0.5);
+        }
+        #timing8 {
+            -webkit-transition: 1s steps(4);
+            transition: 1s steps(4);
+        }
+        
+        li a:hover {
+            width: 100%;
+        }
+    </style>
 </head>
 <body>
+    <h1>CSS transition timing functions</h1>
+    <ul>
+        <li><a href="" id="timing1"><code>ease</code> (default)</a></li>
+        <li><a href="" id="timing7"><code>cubic-bezier(0.5,1.5,0.5,-0.5)</code></a></li>
+        <li><a href="" id="timing8"><code>steps(4)</code></a></li>
+    </ul>
 
-   <h1>CSS transitions, using <code>border-radius</code> and RGBa colors.</h1>
-    <p id="daddy"><a href="">Big daddy link!</a></p>
-    <p id="spurt"><a href="">Growth spurt link!</a></p>
-    <p id="baby"><a href="">Shy baby link!</a></p>
-    
+    <!-- Link back to HTML Dog: -->
+    <p><a href="http://www.htmldog.com/examples/"><img src="http://www.htmldog.com/badge1.gif" alt="HTML Dog"></a></p>
 </body>
-<script src="javaScript.js"></script>
 </html>
