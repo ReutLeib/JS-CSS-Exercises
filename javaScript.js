@@ -1,3 +1,7 @@
+// http://www.htmldog.com/techniques/
+
+
+
 /*index1.html*/
 
 // var changeColor = ()=> {
@@ -216,7 +220,7 @@
 
 // /*////////////////////////////////////////////////////////////////*/
 
-/*index6.html  TABLE*/
+/*index6.html  TABLE WITH CSS*/
 
 // var eventDiv = document.getElementsByClassName("col");
 // var innerTxt, count=0;
