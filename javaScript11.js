@@ -6,3 +6,7 @@ function insert_Row(){
     cell1.innerHTML = "new cell1";
     cell2.innerHTML = "new cell2";
 }
+
+function myDeleteFunction() { // its not on the html file 
+    document.getElementById("myTable").deleteRow(0);
+}
