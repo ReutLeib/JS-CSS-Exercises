@@ -1,0 +1,65 @@
+* { margin: 0px; padding: 0px; }
+footer,main,header,article,section,aside,nav,footer,div{
+	display: block;
+	font-family: 'Varela Round', sans-serif;
+}
+
+a{ text-decoration: none; }
+
+/*<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">*/
+
+body{
+    background: bisque;
+    margin:  30px;
+}
+
+.highlight{
+    background-color: yellowgreen;
+}
+main{
+     width: 100%;
+ }
+
+#svg {
+	width: 30%;
+	height: 20%;
+	float: right;
+ }
+
+#inputAddress{
+	width: 30%;
+}
+
+#stomach{
+	width: 50%;
+}
+
+#gender{
+	float: left;
+}
+
+#brothers{
+	width: 60%;
+}
+
+#svgBoy{
+	float: left;
+	width: 150px;
+	height: 150px;
+	margin-top: 45px;
+	padding-right: 40px;
+}
+
+#svgGirl{
+	float: left;
+	width: 120px;
+	height: 120px;
+}
+
+#Hobbies{
+	float: left;
+}
+
+ h2{
+	 float: left;
+ }

@@ -1,0 +1,180 @@
+* { margin: 0px; padding: 0px; }
+footer,main,article,section,aside,nav,footer,div{ display: block; }
+a{ text-decoration: none; }
+
+header{
+	width: 100%;
+	height: 62px;
+  display: block;
+	background-color: #1b1e26;
+}
+
+footer{
+  width: 1280px;
+	height: 92px;
+	padding-left: 30px;
+}
+
+footer a{
+	color: #333333;
+	padding-left: 40px;
+}
+
+footer p{
+	color: #333333;
+  display: inline-block;
+	padding-left: 40px;
+}
+
+span{
+	font-family: Gigi;
+	color: red;
+}
+
+nav{
+  width: 1280px;
+	padding-left: 30px;
+}
+
+nav a{
+	color: #8e959c;
+	padding-left: 40px;
+}
+
+#mainmenu a:hover{
+	color:#666666;
+}
+
+.main{
+  width: 1280px;
+}
+
+.firstName{
+	color:red;
+	font-family: Rockwell;
+	font-size: 26px;
+}
+
+.lastName{
+	color:#fdff89;
+	font-family: Forte;
+	font-size: 24px;
+}
+
+.section3{
+  width: 1280px;
+	height: 288px;
+	background: #24272e;
+}
+
+.icon{
+	margin-left: 20px;
+
+}
+
+.subTitle{
+	margin-left: 70px;
+	margin-top: 27px;
+	margin-bottom: 27px;
+	color: #8e959c;
+
+
+}
+
+.mainDiv{
+	width: 351px;
+	height: 282px;
+	border: 1px solid #d9dbdf;
+	margin-left: 70px;
+	padding: 10px;
+}
+
+.secondStatus{
+  width: 1140px;
+	height: 156px;
+	margin-left: 70px;
+	margin-top: 69px;
+	padding: 10px;
+	border-top: #d9dbdf;
+	border-left: white;
+	border-bottom: white;
+	border-right: white;
+	border-style: solid;
+
+	line-height: 62px;
+}
+
+.secondTxt{
+	margin-top: 35px;
+	margin-left: 118px;
+}
+
+.secondTxt p{
+	color: #abb1bb;
+	margin-bottom: -35px;
+}
+
+.section3{
+  	height: 288px;
+}
+.section3a{
+  padding-left: 70px;
+}
+
+.section3 h2{
+	color: #ffffff;
+}
+
+.section3 p{
+	color: #8e959c;
+	font-size: 23px;
+}
+
+
+.mainDiv h5{
+	color: #454e5c;
+	margin-left: 60px;
+}
+
+.mainDiv div{
+	margin-top: 10px;
+	margin-left: 15px;
+}
+
+.mainDiv h6{
+	color: #8e959c;
+	margin-left: 60px;
+}
+
+#logo{
+	width: 295px;
+	height: 62px;
+	margin-left: 64px;
+	padding-left: 50px;
+	display: block;
+	background: url(../images/logo.PNG) no-repeat;
+	background-size: 40px 33px;
+	background-position-y: center;
+	line-height: 62px;
+}
+
+#mainImg{
+	margin-left: 15px;
+
+}
+
+
+#yonitPic{
+	float:left;
+}
+
+#profilePic{
+	margin-top: 37px;
+	margin-left: 8px;
+	float:left;
+}
+
+#coverPhoto{
+	width: 1280px;
+	height: 403px;
+}

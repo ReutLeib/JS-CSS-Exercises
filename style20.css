@@ -1,0 +1,24 @@
+body{
+  padding: 10px;
+}
+
+button{
+  display: block;
+}
+
+.rectangle{
+  width: 100px;
+  height: 100px;
+  background-color: green;
+  border: 3px solid grey;
+  display: block;
+}
+
+#xyz{
+  width: 70%;
+  /*height: 100%;*/
+  /*float: left;*/
+  display: flex;
+  justify-content: space-around;
+  /*justify-content: space-between;*/
+}

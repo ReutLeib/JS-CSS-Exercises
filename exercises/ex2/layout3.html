@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Exercise 2 - Layout 3 </title>
+		<meta charset="UTF-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+		<link rel="stylesheet" href="includes/style.css" />
+		<script src="includes/main.js" async> </script>
+	</head>
+	<body id="layout3">
+		<header>
+			<a href="#" id="logo"></a>
+		</header>
+		<main></main>
+	</body>
+
+<style>
+.square{
+	width: 33%;
+	height: 200px;
+	display: inline-block;
+	float: left;
+}
+.square.starred{
+	background-color: black!important;
+}
+.square:last-child{
+	background-color:cyan!important;
+}
+@media only screen and (max-width: 600px){
+	.square { width: 50%; }
+	/*header{	height: 100px;}*/
+}
+
+</style>
+	<script>
+
+	function getRandomInt(min, max) { /* found @ developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Math/random */
+	  min = Math.ceil(min);
+	  max = Math.floor(max);
+	  return Math.floor(Math.random() * (max - min)) + min;
+	}
+	function getRandomColor(){
+		var r = getRandomInt(0,255);
+		var g = getRandomInt(0,255);
+		var b = getRandomInt(0,255);
+		return 'rgb('+r+','+g+','+b+')';
+	}
+	function createSquare(){
+		 return $('<article>', {
+			 class: 'square',
+			 css: {
+        "background-color": getRandomColor()
+			}
+		});
+		//'<div class="square"></div>'
+		/*var element = document.createElement('div');
+		element.className = "square";
+		return element;*/
+		//return  '<div class="square"></div>';
+	}
+	//window.onload = function() {
+	$(document).ready(function() {
+		for (var i = 0; i < 30; i++) {
+		$("main").append(createSquare());
+		//document.getElementById("main").appendChild(createSquare());
+	}
+	//$("main .square").click(function(){
+
+	//});
+
+
+	$('main').on("click",".square",function(){
+		if ($(this).is(':last-child')){
+			$("main").prepend(createSquare());
+		}else {
+			$(this).toggleClass("starred");
+		}
+
+	})
+
+	});
+
+//};
+
+	</script>
+
+</html>
